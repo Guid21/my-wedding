@@ -6,6 +6,7 @@ import tim1 from './img/tim1.jpg';
 import tim2 from './img/tim2.jpg';
 import tim3 from './img/tim3.jpg';
 import anna from './img/anna.png';
+import wedding from './img/wedding.png';
 
 const leftAnimation = {
   hidden: {
@@ -53,18 +54,7 @@ function App() {
   return (
     <motion.div className="app" initial="hidden" whileInView="visible">
       <header>
-        <div className="logo">
-          <motion.span className="laura" variants={leftAnimation}>
-            T
-          </motion.span>
-          <motion.span className="ampersand">&</motion.span>
-          <motion.span className="javery" variants={rightAnimation}>
-            A
-          </motion.span>
-          <motion.div id="date" variants={appearanceAnimation}>
-            21.05.2022
-          </motion.div>
-        </div>
+        <img src={wedding} alt="" />
       </header>
       <main>
         <motion.div className="card card-compact w-96 bg-base-100 shadow-xl p-10">

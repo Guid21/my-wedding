@@ -23,7 +23,6 @@ main {
 .logo {
   background: url('https://s.cdpn.io/7635/averyson-logo.gif') no-repeat;
   background-size: 100%;
-  float: left;
   width: 100%;
   height: 28em;
   font-family: Baskerville;
